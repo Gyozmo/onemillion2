@@ -1,0 +1,85 @@
+/* Vos customisations des classes de Bootstrap */
+
+/*
+    .col-xs-*: none (auto)
+    .col-sm-*: 750px
+    .col-md-*: 970px
+    .col-lg-*: 1170px
+
+
+
+    Extra small devices Phones (<768px) (col-xs)
+    Small devices Tablets (≥768px) (col-sm)
+    Medium devices Desktops (≥992px) (col-md)
+    Large devices Desktops (≥1200px) (col-lg)
+
+*/
+nav.navbar.navbar-inverse {
+  margin: 0;
+}
+
+#home {
+background: url('/images/hero-image.jpg');
+background-position: 0% 10%;
+color: white;
+}
+
+button {
+  margin: 3%;
+}
+
+#arrow {
+  font-size: 12px;
+  letter-spacing: -5px;
+}
+
+footer {
+  height: 200px;
+  margin: 50px 0 0 0;
+}
+
+footer img {
+  position: relative;
+  top: 60%;
+  left: 10%;
+}
+
+hr {
+  border: 1px solid #ff4444;
+  width: 19%;
+}
+
+#back-to-top {
+position: relative;
+bottom: -40%;
+left: 90%;
+}
+
+
+
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+/* md */
+
+
+}
+
+@media (max-width: 991px) {
+/* sm */
+
+
+}
+
+@media (max-width: 767px) {
+/* xs */
+footer img {
+  position: relative;
+  top: 60%;
+  left: 1%;
+}
+
+}
